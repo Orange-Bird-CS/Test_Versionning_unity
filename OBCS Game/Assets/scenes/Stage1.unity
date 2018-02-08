@@ -906,7 +906,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -1400,7 +1399,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 667543918}
-  - component: {fileID: 667543919}
   m_Layer: 0
   m_Name: 2 - Middleground
   m_TagString: Untagged
@@ -1426,21 +1424,6 @@ Transform:
   m_Father: {fileID: 1607177373}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &667543919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 667543917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 040cf1593f19ab145afe72a4722d7131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: -1, y: 0}
-  isLinkedToCamera: 0
-  isLooping: 0
 --- !u!1 &676268947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,7 +2221,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1177282820}
   - component: {fileID: 1177282819}
-  - component: {fileID: 1177282818}
   m_Layer: 0
   m_Name: Door Open
   m_TagString: Untagged
@@ -2246,21 +2228,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1177282818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1177282817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 040cf1593f19ab145afe72a4722d7131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: -1, y: 0}
-  isLinkedToCamera: 0
-  isLooping: 0
 --- !u!212 &1177282819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2296,7 +2263,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 99e6c9a6566eb5b458f70527d14c37a2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.622}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3310,7 +3277,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1729581908}
-  - component: {fileID: 1729581909}
   m_Layer: 0
   m_Name: 0 - Background
   m_TagString: Untagged
@@ -3335,21 +3301,6 @@ Transform:
   m_Father: {fileID: 1607177373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1729581909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1729581907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 040cf1593f19ab145afe72a4722d7131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: -1, y: 0}
-  isLinkedToCamera: 0
-  isLooping: 1
 --- !u!1 &1756932990
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,7 +3886,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1889901395}
-  - component: {fileID: 1889901396}
   m_Layer: 0
   m_Name: 1 - Background elements
   m_TagString: Untagged
@@ -3960,21 +3910,6 @@ Transform:
   m_Father: {fileID: 1607177373}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1889901396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1889901394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 040cf1593f19ab145afe72a4722d7131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
-  direction: {x: -1, y: 0}
-  isLinkedToCamera: 0
-  isLooping: 0
 --- !u!1 &1907510166
 GameObject:
   m_ObjectHideFlags: 0
