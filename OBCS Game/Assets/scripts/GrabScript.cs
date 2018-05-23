@@ -9,7 +9,7 @@ public class GrabScript : MonoBehaviour
     RaycastHit2D hit;
     public float distance = 2f;
     public Transform holdpoint;
-    public Transform ground;
+    public Transform zoneGrab;
     public float throwforce;
     public LayerMask notgrabbed;
 
@@ -28,7 +28,7 @@ public class GrabScript : MonoBehaviour
             {
                 //Grab
                 Physics2D.queriesStartInColliders = false;
-                hit = Physics2D.Raycast(ground.position, Vector2.right * transform.localScale.x, distance);
+                hit = Physics2D.Raycast(zoneGrab.position, Vector2.right * transform.localScale.x, distance);
 
                 if (hit.collider != null && hit.collider.tag == "Grabbable")
                 {
