@@ -124,7 +124,7 @@ GameObject:
   m_Layer: 0
   m_Name: HoldPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -139,7 +139,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 197308436}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &53842909
 Prefab:
@@ -192,6 +192,28 @@ Transform:
   m_PrefabParentObject: {fileID: 4878757481044398, guid: 23e89e59aa89b264cad12d03077234d9,
     type: 2}
   m_PrefabInternal: {fileID: 53842909}
+--- !u!1 &54431085 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1070574548568510, guid: 85dd6f49027054e439c83097142592d8,
+    type: 2}
+  m_PrefabInternal: {fileID: 678160548}
+--- !u!68 &54431086
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 54431085}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.3746233, y: 0.82547474}
+  - {x: 2.5931315, y: 0.82547474}
 --- !u!1001 &77744073
 Prefab:
   m_ObjectHideFlags: 0
@@ -482,7 +504,6 @@ Transform:
   m_LocalPosition: {x: 0.61, y: -2.28, z: 0}
   m_LocalScale: {x: 3.771533, y: 3.77153, z: 1}
   m_Children:
-  - {fileID: 1195700526}
   - {fileID: 587024789}
   - {fileID: 828202387}
   - {fileID: 12144496}
@@ -1179,7 +1200,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1194,7 +1215,7 @@ Transform:
   m_LocalScale: {x: 0.56448287, y: 0.5644837, z: 1}
   m_Children: []
   m_Father: {fileID: 197308436}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &624709510
 GameObject:
@@ -1647,7 +1668,7 @@ GameObject:
   m_Layer: 0
   m_Name: CeilingCheck
   m_TagString: Untagged
-  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1662,7 +1683,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 197308436}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &833679386
 Prefab:
@@ -2033,34 +2054,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64b5cbaea4101e0458477ec38bb1585d, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1195700525
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1195700526}
-  m_Layer: 0
-  m_Name: BoxGrabbable
-  m_TagString: Untagged
-  m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1195700526
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1195700525}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0445, z: 0}
-  m_LocalScale: {x: 0.56448394, y: 0.5644845, z: 1}
-  m_Children: []
-  m_Father: {fileID: 197308436}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1200620697
 Prefab:
   m_ObjectHideFlags: 0
